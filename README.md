@@ -51,6 +51,7 @@ pip install -r requirements.txt
 
 ### 2. Dataset Setup
 Taken from [kaggle](https://www.kaggle.com/competitions/quora-question-pairs/data).
+
 Ensure your training and test datasets are placed in the `dataset/` folder:
 - **Training**: [dataset/train.csv] (should contain `question1`, `question2`, and `is_duplicate` labels)
 - **Testing**: [dataset/test.csv] (with similar structure for evaluation, or unlabeled to save predictions)
